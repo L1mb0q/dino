@@ -17,7 +17,7 @@ SAVE_MODEL = True    # сохранять таблицу после каждой
 MODEL_FILE = "q_table_v3.npy"
 
 EPISODES = 1000
-MAX_STEPS = 3000     # предел шагов в одной игре
+MAX_STEPS = 10000     # предел шагов в одной игре
 
 # --- Q-learning ---
 ALPHA = 0.1          # скорость обучения
